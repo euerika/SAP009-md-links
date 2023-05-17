@@ -23,7 +23,6 @@ function buscarLink(element) {
     if (!element || !element.href) {
         return Promise.reject(new Error(`O elemento é invalido ou está sem URL`));
     }
-
     //esta chamando a função fetch
     return fetch(element.href)
         .then(response => {

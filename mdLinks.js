@@ -1,7 +1,7 @@
 const fs = require('fs');
 const chalk = require('chalk');
 const fetch = require('node-fetch');
- //vai retornar um promessa se resolver o ou rejeitar 
+ //vai retornar um promessa se resolver ou rejeitar 
 function mdlinks(pathFile, options = {}) {
   return new Promise((resolve, reject) => {
     const arqExiste = fs.existsSync(pathFile);
@@ -15,7 +15,6 @@ function mdlinks(pathFile, options = {}) {
           } else {
             const linkRegex =/\[([^[\]]*?)\]\((https?:\/\/[^\s?#.].[^\s]*)\)/gm;
             const procurarLinks = data.match(linkRegex)
-
             const linksEncontrados = procurarLinks.map(link => {
               const removerLink = link.replace(/.$/, '').replace('[', '');
               const dividir = removerLink.split('](');
