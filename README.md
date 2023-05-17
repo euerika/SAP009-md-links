@@ -16,10 +16,25 @@ Com esta biblioteca você poderá:
 - Retornar o status http de cada link encontrado;
 
 
-### Instalação 
-.
+## 2. Imagens do terminal
 
-#### Tecnologias utilizadas 
+NESTA IMAGEM TEMOS O RETORNO COM TODOS OS LINKS ENCONTRADOS E MOSTRA OS ARQUIVOS QUE ESTÃO VÁLIDOS E O STATUS DO LINK.
+
+![Caminho e  --Validate](https://github.com/euerika/SAP009-md-links/assets/109056305/a26f584a-8451-4341-8fc6-f82f9fcd2ea8)
+
+AQUI MOSTRA TODOS OS AQUIVOS, O TOTAL E QUANTOS ESTÃO QUEBRADOS.
+
+![Sem título](https://github.com/euerika/SAP009-md-links/assets/109056305/8504cdd5-fdaf-4095-a757-a272a7d0269b)
+ 
+QUANDO NÃO EXISTE O ARQUIVO RETO MOSTRA QUE NÃO EXTE AQUELE ARQUIVO QUE É BUSCADO.
+
+![ARQUIVO NÃO EXISTE](https://github.com/euerika/SAP009-md-links/assets/109056305/94e06c41-6c65-4704-aec8-3b0a358bbd4a)
+
+TESTES
+
+![TESTES](https://github.com/euerika/SAP009-md-links/assets/109056305/59afc7f7-977d-4fad-aaca-27229da579c3)
+
+## 3. Tecnologias utilizadas 
 <img align="center" height="30" width="40" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" />
 <img align="center" height="30" width="40"img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" />
 <img align="center" height="30" width="40"img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" />
