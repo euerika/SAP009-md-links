@@ -135,7 +135,7 @@ if(options === '--stats' && process.argv.includes('--validate')) {
     mdLinks(pathFile)
         .then(result => {
             result.forEach(element => {
-                console.log(chalk.blue('\u2764') + ' ' + chalk.magenta(element.file), chalk.grey(element.href), chalk.blue(element.text));
+                console.log(chalk.blue('\u2764') + ' ' + chalk.magenta(element.file), chalk.white(element.href), chalk.magenta(element.text));
             });
         })
         .catch(error => {
